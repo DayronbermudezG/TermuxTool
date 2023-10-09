@@ -9,11 +9,12 @@ echo ""
 
 read -p "¿Tienes instalado C++? [y/n]: " opcion
 
-if (( $opcion == 'y')); then
+if [ $opcion == 'y'] || [ $opcion == 'Y']; then
     pkg install clang
+else
+    g++ -o TermuxTool dbg/TermuxTool.cpp
 fi
 
-g++ -o TermuxTool dbg/TermuxTool.cpp
 rm -r dbg
 rm README.md
 clear
