@@ -8,7 +8,7 @@ echo ""
 
 
 read -p "¿Tienes instalado C++? [y/n]: " opcion
-echo "La opción seleccionada fue 'y'."
+echo "La opción seleccionada fue $opcion."
 
 pkg install clang
 g++ -o TermuxTool dbg/TermuxTool.cpp
