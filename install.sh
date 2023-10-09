@@ -6,6 +6,10 @@ echo "            Creado por DayronBG"
 echo ""
 echo ""
 
+
+read -p "¿Tienes instalado C++? [y/n]: " opcion
+echo "La opción seleccionada fue 'y'."
+
 pkg install clang
 g++ -o TermuxTool dbg/TermuxTool.cpp
 rm -r dbg
