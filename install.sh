@@ -9,4 +9,5 @@ echo
 pkg install clang
 g++ -o TermuxTool dbg/TermuxTool.cpp
 rm -r dbg
+clear
 ./TermuxTool
