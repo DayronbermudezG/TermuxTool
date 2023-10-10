@@ -11,7 +11,8 @@ pkg install clang
 g++ -o TermuxTool dbg/TermuxTool.cpp
 rm -r dbg
 rm README.md
-echo "cd .. && rm -r TermuxTool">uninstall.sh
+rm LICENSE
+echo "cd .. && rm -r TermuxTool/">uninstall.sh
 chmod +x uninstall.sh
 rm install.sh
 clear
