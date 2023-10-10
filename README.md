@@ -7,4 +7,7 @@ Paso 1:
     Situese en la carpeta correspondiente del proyecto.
 
 Paso 2:
+    Ejecute este comando 'chmod +x install.sh' sin las comillas.
+
+Paso 3:
     Ejecute el programa llamado 'install.sh' y espere a que todo termine de instalarse.
