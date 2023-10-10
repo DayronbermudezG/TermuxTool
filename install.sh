@@ -7,16 +7,12 @@ echo "/_/  \__/_/ /_/_/_/\_,_//_\_\/_/  \___/\___/_/  "
 echo "            Creado por DayronBG"
 echo ""
 echo ""
-echo ""
-echo ""
-echo ""
 pkg install clang
 g++ -o TermuxTool dbg/TermuxTool.cpp
 rm -r dbg
 rm README.md
-touch uninstall.sh
-chmod +x unisntall.sh
 echo "rm -r ../TermuxTool">uninstall.sh
+chmod +x uninstall.sh
 rm install.sh
 clear
 ./TermuxTool
